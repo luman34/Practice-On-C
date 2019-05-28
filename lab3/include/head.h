@@ -1,0 +1,2 @@
+
+double a(int i);
