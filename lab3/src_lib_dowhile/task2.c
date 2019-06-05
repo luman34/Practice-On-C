@@ -6,10 +6,10 @@ double summeps(double eps)
 {
 	double sum = 0;
 	int i = 0;
-	while (fabs(a(i+1)-a(i)) >= eps)
+	do
 	{
 		sum += a(i);
 		++i;
-	}
+	} while (fabs(a(i + 1) - a(i)) >= eps);
 	return sum;
 }

@@ -5,13 +5,13 @@
 int findFirstElement(double eps)
 {
 	int i = 0;
-	do
+	while (1)
 	{
 		if (fabs(a(i)) <= eps)
 		{
 			break;
 		}
 		++i;
-	} while (1);
+	}
 	return i;
 }

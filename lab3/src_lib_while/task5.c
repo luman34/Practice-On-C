@@ -4,13 +4,13 @@
 int findFirstNegativeElement(double eps)
 {
 	int i = 0;
-	do
+	while (1)
 	{
 		if (a(i) < 0 && fabs(a(i)) <= eps)
 		{
 			break;
 		}
 		++i;
-	} while (1);
+	}
 	return i;
 }

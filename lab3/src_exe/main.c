@@ -1,11 +1,5 @@
 #include <stdio.h>
 
-double summ(int n);
-double summeps(double eps);
-void print(int n, int k);
-int findFirstElement(double eps);
-int findFirstNegativeElement(eps);
-
 int main(void)
 {
 	int n;

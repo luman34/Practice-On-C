@@ -6,10 +6,10 @@ double summ(int n)
 {
 	double sum = 0;
 	int i = 0;
-	while (i < n)
+	do 
 	{
 		sum += a(i);
 		++i;
-	}
+	} while (i < n);
 	return sum;
 }

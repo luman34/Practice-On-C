@@ -5,7 +5,7 @@
 void print(int n, int k)
 {
 	int i = 0;
-	while (i < n)
+	do
 	{
 		if (i != 0 && (i + 1) % k == 0)
 		{
@@ -13,6 +13,6 @@ void print(int n, int k)
 		}
 		printf("%.4lf ", a(i));
 		++i;
-	}
+	} while (i < n);
 	printf("\n");
 }

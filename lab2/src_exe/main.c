@@ -3,9 +3,11 @@
 void main()
 {
     double x, y;
+	printf("switch 1 to start task1\nswitch 2 to start task2\n");
 	switch (_getch())
 	{
 	case '1':
+		system("cls");
 		printf("Selected case 1\n");
 		scanf_s("%lf", &x);
 		scanf_s("%lf", &y);
@@ -20,6 +22,7 @@ void main()
 		}
 		break;
 	case '2':
+		system("cls");
 		printf("Selected case 2\n");
 		scanf_s("%lf", &x);
 		printf("f(x)=%lf\n", f(x));
