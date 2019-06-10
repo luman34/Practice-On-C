@@ -1,16 +1,13 @@
-#include <stdio.h>
-#include <string.h>
-#include <locale.h>
 #include <head.h>
 
 struct ZACH *write1(void)
 {
 	static struct ZACH Z1 =
 	{
-		"Чак",
-		"Норрис",
-		"Машинович",
-		"1ТОП999",
+		"Вася",
+		"Машина",
+		"Киборгович",
+		"2ЖУК1337",
 		{
 			{ 2017, //страница зачетки
 			  1,//1й семестр
@@ -72,7 +69,7 @@ struct ZACH *write1(void)
 					{ "Электромагнитные Поля и Волны", "Ястребцова", "12.04.19", { notDiff, {.acc = 1} }  },
 					{ "Физическая Культура", "Несмертный", "00.07.19", { notDiff, {.acc = 1} }  },
 					{ "Вычислительные Модели", "Загвоздкина", "12.03.19", { notDiff, {.acc = 1} }  },
-					{ "Безопасные Практические Занятия", "Барков", "СЕЙЧАС", { notDiff, {.acc = 1} }  }
+					{ "Безопасные Практические Занятия", "Барков", "СЕЙЧАС", { notDiff, {.acc = 1} }  }//пожалуйста
 				},
 				{
 					{ "Электроника", "Власов", "19.06.19", { Diff, {.mark = Excel} }  },
@@ -318,7 +315,7 @@ struct ZACH *write2(void)
 
 	strcpy(Z2.semI[3].theor[5].name, "Безопасные Практические Занятия");
 	strcpy(Z2.semI[3].theor[5].teach, "Барков");
-	strcpy(Z2.semI[3].theor[5].time, "СЕЙЧАС");
+	strcpy(Z2.semI[3].theor[5].time, "СЕЙЧАС");//пожалуйста
 	Z2.semI[3].theor[5].str.type = notDiff;
 	Z2.semI[3].theor[5].str.value.acc = 1;
 
